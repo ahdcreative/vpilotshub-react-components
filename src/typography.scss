@@ -1,0 +1,11 @@
+$font-family: "Avenir Next", Helvetiva, Arial, sans-serif;
+
+@mixin font-defaults {
+  font-family: $font-family;
+}
+
+@mixin heading {
+  @include font-defaults;
+  font-size: 40px;
+  font-weight: bold;
+}
